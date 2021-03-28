@@ -133,7 +133,7 @@ var Server = /** @class */ (function () {
         req.forEach(function (v) { return _this.requestManager.add(v); });
         return this;
     };
-    Server.prototype.remove = function () {
+    Server.prototype.unregister = function () {
         var _this = this;
         var req = [];
         for (var _i = 0; _i < arguments.length; _i++) {

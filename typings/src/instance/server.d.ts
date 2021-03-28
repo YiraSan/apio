@@ -9,6 +9,6 @@ export declare class Server {
     private io;
     constructor(config: Config, authContext?: Authentification);
     register(...req: Request[]): this;
-    remove(...req: Request[]): this;
+    unregister(...req: Request[]): this;
     get users(): User[];
 }

@@ -92,7 +92,7 @@ export class Server {
         return this;
     }
 
-    remove(...req : Request[]) {
+    unregister(...req : Request[]) {
         req.forEach(v=>this.requestManager.remove(v))
         return this;
     }

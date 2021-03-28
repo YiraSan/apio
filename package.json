@@ -1,9 +1,9 @@
 {
   "name": "apio-utils",
-  "version": "0.0.1",
-  "description": "A powerfull libraries for creating api in socket.io",
+  "version": "0.0.2",
+  "description": "A powerful library for creating socket connections",
   "main": "src/index.js",
-  "types": "typings/index.d.ts",
+  "types": "typings/module.d.ts",
   "dependencies": {
     "crypto-js": "^4.0.0",
     "socket.io": "^4.0.0",
@@ -21,7 +21,7 @@
     "apio",
     "utils",
     "socket.io",
-    "powerfull",
+    "powerful",
     "fast",
     "simple"
   ],

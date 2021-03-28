@@ -1,6 +1,6 @@
 // SERVER =>
 
-const { Server, ServerConfig, Request, Authentification, RolePermission } = require("apio-utils");
+const { Server, ServerConfig, Request, Authentification, RolePermission } = require("./src");
 
 // creating the server :
 
@@ -35,7 +35,7 @@ authContext.setUser("root", { // create a new user !
 
 // CLIENT =>
 
-const { Client, ClientConfig } = require('apio-utils');
+const { Client, ClientConfig } = require('./src');
 
 var config = new ClientConfig({ // ANOTHER WAY TO SET CONFIG /!\ The address is by default on "127.0.0.1" /!\ And username and password on "root, root" /!\
     "port": 1000,

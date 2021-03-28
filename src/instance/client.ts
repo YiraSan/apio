@@ -39,7 +39,7 @@ export class Client {
         return new Promise((resolve, reject) => {
 
             setTimeout(() => {
-                reject("Reseponse timeout")
+                reject("Response timeout")
             }, this.config.getTimeout())
 
             let content: callContent = {createdAt: new Date(), id: new RequestID("call").id, key:key};
