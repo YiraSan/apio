@@ -84,7 +84,7 @@ TypeScript :
 ```js
 import { Server, ServerConfig } from 'apio-utils';
 
-var config: ServerConfig = new ServertConfig({port: 1000})
+var config: ServerConfig = new ServerConfig({port: 1000})
 var server: Server = new Server(config);
 ```
 
@@ -93,7 +93,7 @@ JavaScript :
 ```js
 const { Server, ServerConfig } = require('apio-utils');
 
-var config = new ServertConfig({port: 1000})
+var config = new ServerConfig({port: 1000})
 var server = new Server(config);
 ```
 
