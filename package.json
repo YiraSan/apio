@@ -1,0 +1,38 @@
+{
+  "name": "apio-utils",
+  "version": "0.0.1",
+  "description": "A powerfull libraries for creating api in socket.io",
+  "main": "src/index.js",
+  "types": "typings/index.d.ts",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "socket.io": "^4.0.0",
+    "socket.io-client": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.1"
+  },
+  "scripts": {},
+  "keywords": [
+    "api",
+    "libraries",
+    "socket",
+    "websocket",
+    "apio",
+    "utils",
+    "socket.io",
+    "powerfull",
+    "fast",
+    "simple"
+  ],
+  "author": "YiraSan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YiraSan/apio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YiraSan/apio/issues"
+  },
+  "homepage": "https://github.com/YiraSan/apio#readme"
+}
