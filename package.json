@@ -1,7 +1,7 @@
 {
   "name": "apio-utils",
-  "version": "0.0.2",
-  "description": "A powerful library for creating socket connections",
+  "version": "0.0.3",
+  "description": "A powerful library for creating bilateral socket connections",
   "main": "src/index.js",
   "types": "typings/module.d.ts",
   "dependencies": {
@@ -10,7 +10,8 @@
     "socket.io-client": "^4.0.0"
   },
   "devDependencies": {
-    "@types/crypto-js": "^4.0.1"
+    "@types/crypto-js": "^4.0.1",
+    "@types/node": "^14.14.37"
   },
   "scripts": {},
   "keywords": [
@@ -23,7 +24,8 @@
     "socket.io",
     "powerful",
     "fast",
-    "simple"
+    "simple",
+    "bilateral"
   ],
   "author": "YiraSan",
   "license": "MIT",

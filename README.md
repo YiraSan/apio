@@ -1,6 +1,5 @@
-
 <div align="center">
-  A powerful library for creating socket connections<br><br>
+  A powerful library for creating bilateral socket connections<br><br>
   <a href="https://www.npmjs.com/package/apio-utils">
     <img src="https://img.shields.io/npm/v/apio-utils?style=for-the-badge" alt="Version" />
   </a> 
